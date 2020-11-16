@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<interface>
+    <url name="AddCGKSSG">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddGYSBGPC">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddGYSPJCS">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddGYSPJTX">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddKCCKD">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddKCPDLB">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddKCRKD">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddSLSLD">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+
+    <url name="AddZDDJLX">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddZDHJGL">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddZDWPGL">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddZDWPML">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddZDWPZCZ">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddZDYLZGL">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddZLZJCS">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="AddZLZJTX">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="DeleteCGKSSG">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="DeleteGYSBGPC">
+        <group>business/</group>
+    </url>
+
+    <url name="DeleteGYSPJCS">
+        <group>business/</group>
+    </url>
+
+    <url name="DeleteGYSPJTX">
+        <group>business/</group>
+    </url>
+
+    <url name="DeleteKCPDLB">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="DeleteSLSLLB">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="DeleteZDDJLX">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="DeleteZDHJGL">
+        <group>business/</group>
+    </url>
+
+    <url name="DeleteZDWPML">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="DeleteZDWPZCZ">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="DeleteZLZJTX">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="Login">
+        <group>login</group>
+<!--        <module>addBusiness</module>
+        <action> </action>-->
+    </url>
+
+    <url name="QueryCGCGPC">
+        <group>business</group>
+    </url>
+
+    <url name="QueryCGJHHZ">
+        <group>business</group>
+    </url>
+
+    <url name="QueryCGKSSG">
+        <group>business</group>
+    </url>
+
+    <url name="QueryCGSGHZ">
+        <group>business</group>
+    </url>
+
+    <url name="QueryCGZXCG">
+        <group>business</group>
+    </url>
+
+    <url name="QueryCXCKMX">
+        <group>business</group>
+    </url>
+
+    <url name="QueryCXCKZB">
+        <group>business</group>
+    </url>
+
+    <url name="QueryCXRKMX">
+        <group>business</group>
+    </url>
+
+    <url name="QueryCXRKZB">
+        <group>business</group>
+    </url>
+
+    <url name="QueryCXWPTZ">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="QueryFKBDFP">
+        <group>business</group>
+    </url>
+
+    <url name="QueryFKCWSH">
+        <group>business</group>
+    </url>
+
+    <url name="QueryFKDDYFK">
+        <group>business</group>
+    </url>
+
+    <url name="QueryFKFKTZ">
+        <group>business</group>
+    </url>
+
+    <url name="QueryGYSBGPC">
+        <group>business</group>
+    </url>
+
+    <url name="QueryGYSBGPH">
+        <group>business</group>
+    </url>
+
+    <url name="QueryGYSPJCS">
+        <group>business</group>
+    </url>
+
+    <url name="QueryGYSPJTX">
+        <group>business</group>
+    </url>
+
+    <url name="QueryKCCKDLB">
+        <group>business</group>
+    </url>
+
+    <url name="QueryKCDBRK">
+        <group>business</group>
+    </url>
+
+    <url name="QueryKCDJKC">
+        <group>business</group>
+    </url>
+
+    <url name="QueryKCPDLB">
+        <group>business</group>
+    </url>
+
+    <url name="QueryKCQCSJ">
+        <group>business</group>
+    </url>
+
+    <url name="QueryKCRKDLB">
+        <group>business</group>
+    </url>
+
+    <url name="QueryKCSSKC">
+        <group>business</group>
+    </url>
+
+    <url name="QuerySLPSDGL">
+        <group>business</group>
+    </url>
+
+    <url name="QuerySLPSQR">
+        <group>business</group>
+    </url>
+
+    <url name="QuerySLSLHZ">
+        <group>business</group>
+    </url>
+
+    <url name="QuerySLSLLB">
+        <group>business</group>
+    </url>
+
+    <url name="QuerySLSLWP">
+        <group>business</group>
+    </url>
+
+    <url name="QueryXTBZFL">
+        <group>business</group>
+    </url>
+
+    <url name="QueryXTBZKS">
+        <group>business</group>
+    </url>
+
+    <url name="QueryXTZJLX">
+        <group>business</group>
+    </url>
+
+    <url name="QueryYJCJZJ">
+        <group>business</group>
+    </url>
+
+    <url name="QueryYJDDWRK">
+        <group>business</group>
+    </url>
+
+    <url name="QueryYJGYSZJ">
+        <group>business</group>
+    </url>
+
+    <url name="QueryYJKCYXQ">
+        <group>business</group>
+    </url>
+
+    <url name="QueryYJQYKC">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZDBMJC">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZDCK">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZDDJLX">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZDFL">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZDHJGL">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZDWPGL">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZDWPML">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZDWPZCZ">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZDYLZGL">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZLBHGFX">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZLBHGWP">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZLZJCS">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZLZJSQ">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZLZJTX">
+        <group>business</group>
+    </url>
+
+    <url name="QueryZLZJXM">
+        <group>business</group>
+    </url>
+
+    <url name="ResumeCXCKMX">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="ResumeCXCKZB">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="ResumeXTZDJC">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="StateZDHJGL">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="StateZDWPGL">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="StateZDWPML">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="StateZLZJCS">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="StateZLZJTX">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateCGCGPC">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateCGKSSG">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateFKBDFP">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateFKBDFPbatch">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateFKCWSH">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateFKCWSHall">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateFKCWSHrevoke">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateGYSBGPC">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateGYSBGPH">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateGYSPJCS">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateGYSPJTX">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateKCCKDLB">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateKCKCZT">
+        <group>business</group>
+        <module>updateBusiness</module>
+    </url>
+
+    <url name="UpdateKCPDLB">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateKCRKDLB">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateSLSLLB">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateXTWPBM">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateXTZDJC">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateZDCKGL">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateZDDJLX">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateZDHCPGL">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateZDHJGL">
+        <group>business</group>
+        <module>updateBusiness</module>
+    </url>
+
+    <url name="UpdateZDWPGL">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateZDWPML">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateZDWPZCZ">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateZDWPZCZrep">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateZDYLZGL">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateZLZJCS">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+    <url name="UpdateZLZJTX">
+        <group>business</group>
+        <module>addBusiness</module>
+    </url>
+
+
+
+
+</interface>
