@@ -1,6 +1,6 @@
 import requests
 import readConfig
-from Log import MyLog
+from common.Log import MyLog
 
 localReadConfig = readConfig.ReadConfig()                    #初始化读取配置信息的类
 

@@ -1,6 +1,6 @@
-import configHttp
+from common import configHttp
 import readConfig
-from BasePage import BasePage
+from common.BasePage import BasePage
 
 localReadConfig = readConfig.ReadConfig()                      #初始化读取配置信息类
 configHttp = configHttp.ConfigHttp()                           #初始化http信息

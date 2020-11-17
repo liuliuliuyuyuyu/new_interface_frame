@@ -4,8 +4,8 @@ import os
 import re
 from xlrd import open_workbook
 from xml.etree import ElementTree as ElementTree
-import configHttp
-from Log import MyLog
+from common import configHttp
+from common.Log import MyLog
 import json
 
 localReadConfig = readConfig.ReadConfig()            #初始化读取配置信息的类
