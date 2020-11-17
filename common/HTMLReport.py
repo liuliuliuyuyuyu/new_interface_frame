@@ -25,7 +25,7 @@ from io import StringIO
 
 from jinja2 import Environment, FileSystemLoader
 
-from Log import MyLog
+from common.Log import MyLog
 
 origin_stdout = sys.stdout
 resultPath = MyLog.get_log().get_report_path()
