@@ -1,11 +1,10 @@
 import os
 import unittest
 
-import HTMLTestRunner
-import HTMLReport
+from common import HTMLReport
 import readConfig
-from Log import MyLog
-from configEmail import MyEmail
+from common.Log import MyLog
+from common.configEmail import MyEmail
 
 localReadConfig = readConfig.ReadConfig()      #初始化读取配置信息的类
 
