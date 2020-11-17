@@ -1,6 +1,6 @@
 import unittest
 import readConfig
-from Log import MyLog
+from common.Log import MyLog
 from common import common
 from ddt import ddt,data,unpack
 from setParameters import setParameters, configHttp
