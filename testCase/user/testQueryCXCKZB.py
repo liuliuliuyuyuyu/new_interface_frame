@@ -3,7 +3,7 @@ import readConfig
 from common.Log import MyLog
 from common import common
 from ddt import ddt,data,unpack
-from setParameters import setParameters, configHttp
+from common.setParameters import setParameters, configHttp
 
 data_dict = common.get_xls("userCase.xlsx", "QueryCXCKZB")         #根据sheet名读取数据，这里就是excel中sheet名为Updatename的数据
 localReadConfig = readConfig.ReadConfig()                      #初始化读取配置信息类
