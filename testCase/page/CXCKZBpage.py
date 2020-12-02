@@ -1,5 +1,4 @@
-
-from common import configHttp,common
+from common import common
 from common.setParameters import configHttp
 
 def query(cls,setparam):
