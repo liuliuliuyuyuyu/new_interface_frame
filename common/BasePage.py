@@ -8,7 +8,7 @@ class BasePage:
     @staticmethod
     def login():
         localReadConfig = readConfig.ReadConfig()
-        url = 'http://59.56.182.79:9191/login'
+        url = 'http://59.56.182.79:9192/api/login'
         token = localReadConfig.get_headers("User-Agent")
         headers = {
             "User-Agent": str(token)
@@ -24,5 +24,8 @@ class BasePage:
 
         # print(rep.json()['data']['token'])
         return rep.json()['data']['token']
+
+if __name__ == '__main__':
+    BasePage().login()
 
 
