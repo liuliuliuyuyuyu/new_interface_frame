@@ -81,13 +81,13 @@ class setParameters:
         cls.return_json = None  # 保存响应信息
         cls.info = None  # 返回json格式的响应信息
 
-        print("第一步：设置访问的url")
-        # cls.logger.info("第一步：设置访问的url")
+        # print("第一步：设置访问的url")
+        cls.logger.info("第一步：设置访问的url")
         configHttp.set_url(cls.url)
-        print("第一步：设置成功，访问的url为： " + configHttp.url)
-        print("第二步：设置header(token等)")
-        # cls.logger.info("第一步：设置成功，访问的url为： " + configHttp.url)
-        # cls.logger.info("第二步：设置header(token等)")
+        # print("第一步：设置成功，访问的url为： " + configHttp.url)
+        # print("第二步：设置header(token等)")
+        cls.logger.info("第一步：设置成功，访问的url为： " + configHttp.url)
+        cls.logger.info("第二步：设置header(token等)")
         token = localReadConfig.get_headers("User-Agent")
         Authentication = BasePage.login()
         # set headers         设置请求头

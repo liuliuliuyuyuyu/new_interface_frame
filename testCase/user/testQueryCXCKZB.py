@@ -4,10 +4,10 @@ from common.Log import MyLog
 from common import common
 from ddt import ddt,data,unpack
 from common.setParameters import setParameters, configHttp
+from testCase.page.CXCKZBpage import query
 
 data_dict = common.get_xls("userCase.xlsx", "QueryCXCKZB")         #根据sheet名读取数据，这里就是excel中sheet名为Updatename的数据
 localReadConfig = readConfig.ReadConfig()                      #初始化读取配置信息类
-
 
 @ddt
 class QueryCXCKZB(unittest.TestCase):
@@ -22,34 +22,13 @@ class QueryCXCKZB(unittest.TestCase):
         """出库总表--查询"""
         #初始化
         self.setparam = setParameters.setParameters(self,data)
-
-        self.logger.info("第三步：设置发送请求的参数")
-        string = self.setparam.dataExcel # 把str类型转换为dict类型
-        if 'true' in string:
-            string = string.replace('true', 'True')
-        if 'false' in string:
-            string = string.replace('false', 'False')
-        # if 'null' in string:
-        #     string = string.replace('null', 'None')
-        data = string
-        data = eval(data)
-
-        configHttp.set_data(data)
-        self.logger.info("第三步：设置成功，发送的请求参数为： " + str(data))
-        print("第三步：设置成功，发送的请求参数为： " + str(data))
-        # test interface        发送请求
-        self.logger.info("第四步：发送" + self.setparam.method + "请求")
-        print("第四步：发送" + self.setparam.method + "请求")
-        self.return_json = configHttp.postWithJson()
-        method = str(self.return_json.request)[
-                 int(str(self.return_json.request).find('[')) + 1:int(str(self.return_json.request).find(']'))]
-        self.logger.info("第四步：发送" + method + "请求成功")
-        print("第四步：发送" + method + "请求成功")
-        # check result         检查结果
+        #发送请求获取响应数据
+        self.return_json = query(self,self.setparam.dataExcel)
+        self.logger.info("第四步：发送请求成功")
+        # print("第四步：发送请求成功")
         print("*******************************************************************************************************")
         print("检查结果,响应断言")
         self.logger.info("第五步：检查结果,响应断言")
-
         #响应断言
         self.checkResult()
         print("\n第五步：断言结束")

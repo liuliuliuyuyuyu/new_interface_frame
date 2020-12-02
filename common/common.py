@@ -62,11 +62,12 @@ def show_return_msg(response):
     :return:
     """
     print("显示响应细节")
+    logger.info("显示响应细节")
     url = response.url
     msg = response.text
-    print("\n响应地址："+url)
+    logger.info("\n响应地址："+url)
     # 可以显示中文                                             不使用ascii码而是显示中文    按字典顺序输出  indent 缩进位数
-    print("\n请求返回值："+'\n'+json.dumps(json.loads(msg), ensure_ascii=False, sort_keys=True, indent=4))
+    logger.info("\n请求返回值："+'\n'+json.dumps(json.loads(msg), ensure_ascii=False, sort_keys=True, indent=2))
     # print("\n响应信息：" + '\n' + msg+'\n')
 
 # ****************************** read testCase excel ********************************
